@@ -13,7 +13,7 @@ export default function App() {
 				<div className="App">
 						<Eyes state={state}/>
 						<Button setstate={setstate}/>
-						<img className='github' alt='github logo' src={githubLogo}/>
+						<a href='https://github.com/danielocho500/Eyes' target="_blank"><img className='github' alt='github logo' src={githubLogo}/></a>
 				</div>
 		);
 }
