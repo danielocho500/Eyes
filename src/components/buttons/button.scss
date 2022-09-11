@@ -1,0 +1,48 @@
+:root{
+    --background:#EC87C0;
+}
+
+.buttons{
+    background: var(--background);
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    button{
+        min-width: 50%;
+        background-color: #ee5de2;
+        border-radius: 12px;
+
+        &:hover{
+            background-color: #c83ebc;
+        }
+    }   
+}
+
+@media (min-width: 428px) {
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+    }
+}
+
+@media (min-width: 680px) {
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 15px;
+        font-size: 18px;
+    }
+}

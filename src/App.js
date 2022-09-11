@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './app.scss'
+import { Button } from './components/buttons/Button';
+import { Eyes } from './components/eyes/Eyes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import githubLogo from './img/github.svg';
+
+export default function App() {
+	
+		const [state, setstate] = useState('neutral')
+
+		return (
+				<div className="App">
+						<Eyes state={state}/>
+						<Button setstate={setstate}/>
+						<img className='github' alt='github logo' src={githubLogo}/>
+				</div>
+		);
 }
-
-export default App;
