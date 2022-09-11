@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Eyes/static/css/main.ceba5f83.css",
+    "main.js": "/Eyes/static/js/main.1b050fae.js",
+    "index.html": "/Eyes/index.html",
+    "static/media/github.svg": "/Eyes/static/media/github.9f072bc3a78baf839d59ddff3e4a8d05.svg",
+    "main.ceba5f83.css.map": "/Eyes/static/css/main.ceba5f83.css.map",
+    "main.1b050fae.js.map": "/Eyes/static/js/main.1b050fae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceba5f83.css",
+    "static/js/main.1b050fae.js"
+  ]
+}
